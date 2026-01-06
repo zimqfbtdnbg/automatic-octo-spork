@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎥 VibeTube
 
 A realistic YouTube clone built with **SvelteKit** and **SQLite** - everything in one project, ready to run!
@@ -231,3 +232,6 @@ Built with ❤️ using:
 ---
 
 **VibeTube** - Your videos, your vibe! 🎵
+=======
+# studious-octo-invention
+>>>>>>> bce9ad4b5e30164cbc1138281df33ba05c10536d
