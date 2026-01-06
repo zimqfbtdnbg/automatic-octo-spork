@@ -99,7 +99,7 @@
               <td>{user.username}</td>
               <td>{user.email}</td>
               <td>{user.role}</td>
-              <td>{user.is_scam ? <span class="flag">SCAM</span> : ''}</td>
+              <td>{#if user.is_scam}<span class="flag">SCAM</span>{/if}</td>
               <td>
                 <button on:click={() => toggleScam(user)}>{user.is_scam ? 'Unflag' : 'Flag as scam'}</button>
                 <button class="danger" on:click={() => deleteUser(user)}>Delete</button>
